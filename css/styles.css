@@ -1,6 +1,6 @@
 /* reset */
 * {
-    font-family: "roboto";
+    font-family:'Titillium Web', "roboto";
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -9,21 +9,21 @@
 /* variáveis */
 :root{
     /*backgrounds*/
-    --about-bg-color: #000000; 
+    --about-bg-color: #141414; 
     --bio-bg-color: #14213d;
     /*text*/
     --main-color: #fca311 ;
-    --main-text-color: #D8D8D8 ;
+    --main-text-color: #eef4ff ;
     /*borders*/
     --border-color: #ffffff ;
-    --bio-border-color: #f3dbb6;
+    --bio-border-color: #0f1f3b;
 
 /*https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff*/
 }
 /*general*/
 .highlight{
     color: var(--main-color);
-
+    font-weight: bold;
 }
 /*containers */
 #container {
@@ -55,7 +55,7 @@
 #bio-container img{
     height: 175px;
     width: 175px;
-    border-radius: 40%;
+    border-radius: 50%;
     margin-bottom: 25px;
     margin-top: 10px ;
 
@@ -126,7 +126,7 @@
 
 #name{
     font-size: 42px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 #title{
@@ -146,13 +146,13 @@
     color: var(--main-text-color);
     background-color: var(--main-color);
     border: 2px solid var(--main-color);
-    
+
     border-radius: 5px;
     text-decoration: none;
     transition: .5s;
     margin: 25px 10px ;
-    padding: 12px 10px;
-    width: 200px;
+    padding: 0px 10px;
+    /* width: 200px;*/
     text-align: center;
     justify-content: center;
     display: flex;
