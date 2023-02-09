@@ -49,6 +49,8 @@
     height: 100%;
     background-color: var(--about-bg-color);
     padding: 50px;
+    padding-bottom: 0px;
+    padding-top: 0px;
     min-height: 100vh;
 }
 
@@ -126,12 +128,12 @@
 
 #name{
     font-size: 42px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 #title{
     font-size: 42px;
-    margin-bottom: 15px;
+    margin-bottom: 4px;
     font-weight: bold;
 
 }
