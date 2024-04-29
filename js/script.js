@@ -2,7 +2,7 @@ let text = document.querySelector("#container")
 let languageChangerButton = document.querySelector(".language-changer")
 let PortugueseText = `
         <aside id="bio-container">
-            <span class="language-changer highlight">Change to english</span>
+            <a class="language-changer"> id="btn-projects"> <span>Change to english</span></a>
             <h2>Filipe Zatta</h2>
             <img id="bio img" src="img/file.jpg" alt="Filipe Zatta">
             <p>Olá, meu nome é Filipe Zatta e sou <span> um programador/engenheiro de dados iniciante atualmente localizado em Porto Alegre.</span></p>
