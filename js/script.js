@@ -1,6 +1,6 @@
 let text = document.querySelector("#container")
 let languageChangerButton = document.querySelector(".language-changer")
-let PortugueseText = ```
+let PortugueseText = `
         <aside id="bio-container">
             <span class="language-changer highlight">Change to english</span>
             <h2>Filipe Zatta</h2>
@@ -63,8 +63,8 @@ let PortugueseText = ```
 
         </section>
 
-```
-let EnglishText = ```
+`
+let EnglishText = `
     <aside id="bio-container">
         <span class="language-changer highlight">Alterar para português</span>
         <h2>Filipe Zatta</h2>
@@ -119,7 +119,7 @@ let EnglishText = ```
         </div>
     </section>
 
-```
+`
 
 languageChangerButton.addEventListener("click", () => {
   if(text.getAttribute('data-note') === 'portuguese'){
