@@ -122,6 +122,7 @@ let EnglishText = `
 `
 
 languageChangerButton.addEventListener("click", () => {
+let text = document.querySelector("#container")
   if(text.getAttribute('data-note') === 'portuguese'){
     text.innerHTML =  englishText
     text.setAttribute('data-note', "english")
