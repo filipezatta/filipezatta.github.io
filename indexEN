@@ -19,7 +19,7 @@
 </head>
 <body>
     <main id="container" data-note="portuguese">    <aside id="bio-container">
-        <span href="andygiovanny.github.io/index.html" class="highlight">Alterar para português</span>
+        <span href="filipezatta.github.io/index.html" class="highlight">Alterar para português</span>
         <h2>Filipe Zatta</h2>
         <img id="bio img" src="img/file.jpg" alt="Filipe Zatta">
         <p>Hello, my name is Filipe Zatta and I'm <span>a beginner programmer/data engineer currently located in Porto Alegre.</span></p>
